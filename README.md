@@ -38,7 +38,7 @@ apt install git -y
 Download the IP-Info source code from GitHub:
 
 ```bash
-git clone 
+git clone https://github.com/ySixxNz/IP-Info
 ```
 
 ### 5. Navigate to the IP-Info Directory
@@ -62,7 +62,7 @@ python3 ipinfo.py
 For convenience, you can execute the following single command to perform all installation steps at once:
 
 ```bash
-apt update -y && apt upgrade -y && apt-get install python3 -y && apt install git -y && git clone && cd IP-Info && python3 ipinfo.py
+apt update -y && apt upgrade -y && apt-get install python3 -y && apt install git -y && git clone https://github.com/ySixxNz/IP-Info && cd IP-Info && python3 ipinfo.py
 ```
 
 ## Features
